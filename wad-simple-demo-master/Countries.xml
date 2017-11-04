@@ -1,5 +1,6 @@
 <?xml version='1.0'?>
 <Squad>
+<<<<<<< HEAD
     <players>
         <Position>GK</Position>
         <Name>Darren Randolph</Name>
@@ -7,4 +8,13 @@
         <Club>Middlesborogh</Club>
         <Age>34</Age>
     </players>
+=======
+    <Players>
+        <Position>GK</Position>
+        <Name>Shay Given</Name>
+        <Squad_No>1</Squad_No>
+        <Club>Retired</Club>
+        <Age>39(ish)</Age>
+    </Players>
+>>>>>>> 2c2ba2bf4237e2ef1638359bf8a361dbcb5021a5
 </Squad>
