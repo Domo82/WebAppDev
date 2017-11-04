@@ -10,7 +10,7 @@
 				  td, th {
 				    border: 1px solid #999;
 				    padding: 0.5rem;
-				    text-align: left;
+				    text-align: centre;
 				  }
 				  th {
 				    font-weight: bold;
@@ -20,24 +20,28 @@
 			<body>
 				<table>
 					<tr>
-						<th>Country code</th>
+						<th>Position</th>
 						<th>Name</th>
-						<th>Capital</th>
-						<th>Phone code</th>
+						<th>Squad Number</th>
+						<th>Club</th>
+						<th>Age</th>
 					</tr>
-					<xsl:for-each select="countries/country">
+					<xsl:for-each select="Squad/players">
 							<tr>
 								<td>
-									<xsl:value-of select="Country_code"/>
+									<xsl:value-of select="Position"/>
 								</td>
 								<td>
 									<xsl:value-of select="Name"/>
 								</td>
 								<td>
-									<xsl:value-of select="Capital"/>
+									<xsl:value-of select="Squad_No"/>
 								</td>
 								<td>
-									<xsl:value-of select="Phone_code"/>
+									<xsl:value-of select="Club"/>
+								</td>
+								<td>
+									<xsl:value-of select="Age"/>
 								</td>
 							</tr>
 					</xsl:for-each>
